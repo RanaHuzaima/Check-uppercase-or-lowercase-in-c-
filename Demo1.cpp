@@ -13,8 +13,13 @@ int main()
    {
     cout<<ch<<" is a LowerCase Letter";
    }
+   else if (ch>='0' && ch<='9')
+   {
+      cout<<ch<<" is a numeric";
+   }
+
    else{
-    cout<<ch<<" is a not letter"<<endl;
+    cout<<ch<<" value is not Correct."<<endl;
    }
    
    getch();
